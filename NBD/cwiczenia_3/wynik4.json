@@ -1,0 +1,563 @@
+﻿[
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "actors": {
+"identity": 71,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1956,
+"name": "Tom Hanks"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "actors": {
+"identity": 107,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1949,
+"name": "Jim Broadbent"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    },
+    "actors": {
+"identity": 106,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1966,
+"name": "Halle Berry"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "actors": {
+"identity": 119,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1940,
+"name": "John Hurt"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "actors": {
+"identity": 118,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1946,
+"name": "Stephen Rea"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "actors": {
+"identity": 117,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Natalie Portman"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    },
+    "actors": {
+"identity": 120,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Ben Miles"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1961,
+"name": "Laurence Fishburne"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Carrie-Anne Moss"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1964,
+"name": "Keanu Reeves"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1961,
+"name": "Laurence Fishburne"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Carrie-Anne Moss"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1964,
+"name": "Keanu Reeves"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "actors": {
+"identity": 8,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1978,
+"name": "Emil Eifrem"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "actors": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1961,
+"name": "Laurence Fishburne"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "actors": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Carrie-Anne Moss"
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    },
+    "actors": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1964,
+"name": "Keanu Reeves"
+      }
+    }
+  }
+]

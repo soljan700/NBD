@@ -1,0 +1,122 @@
+﻿[
+  {
+    "director": {
+"identity": 108,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Tom Tykwer"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 25,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "James Marshall"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 6,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "director": {
+"identity": 5,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  }
+]
