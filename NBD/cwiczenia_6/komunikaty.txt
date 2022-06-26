@@ -1,0 +1,17 @@
+Dodany dokument:
+{'id': 6790, 'Name': 'Gladiator', 'isUsed': 1, 'Type': 'digital'}
+
+
+Dodany dokument:
+{'id': 274, 'Name': 'Transformers', 'isUsed': 0, 'Type': 'digital'}
+
+
+Zmodyfikowany dokument:
+{'id': 6790, 'Name': 'Gladiator', 'isUsed': 1, 'Type': 'CD'}
+
+
+Czy w bazie zmodyfikowany doc_0 :
+None
+Czy w bazie doc_1:
+{'id': 274, 'Name': 'Transformers', 'isUsed': 0, 'Type': 'digital'}
+
