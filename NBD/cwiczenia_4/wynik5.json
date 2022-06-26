@@ -1,0 +1,602 @@
+﻿[
+  {
+    "lotnisko": {
+"identity": 224,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SAT"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 227,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FLL"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 230,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "KOA"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 234,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 235,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "RIC"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 236,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IND"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 241,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCI"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 242,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSN"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 251,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BIL"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 253,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ROC"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 254,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CLT"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 255,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DCA"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 259,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PBI"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 260,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MIA"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 266,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MOB"
+      }
+    },
+    "liczba_lotów": 1
+  },
+  {
+    "lotnisko": {
+"identity": 243,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SNA"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 246,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAS"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 247,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ATL"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 248,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CMH"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 249,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SJC"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 252,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LGA"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 263,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUS"
+      }
+    },
+    "liczba_lotów": 2
+  },
+  {
+    "lotnisko": {
+"identity": 221,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SEA"
+      }
+    },
+    "liczba_lotów": 3
+  },
+  {
+    "lotnisko": {
+"identity": 250,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PHX"
+      }
+    },
+    "liczba_lotów": 3
+  },
+  {
+    "lotnisko": {
+"identity": 267,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SBN"
+      }
+    },
+    "liczba_lotów": 3
+  },
+  {
+    "lotnisko": {
+"identity": 225,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCO"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 231,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PDX"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 237,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BOS"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 239,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DFW"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 245,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SAN"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 256,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 258,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CVG"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 262,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 264,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DLH"
+      }
+    },
+    "liczba_lotów": 4
+  },
+  {
+    "lotnisko": {
+"identity": 240,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SLC"
+      }
+    },
+    "liczba_lotów": 5
+  },
+  {
+    "lotnisko": {
+"identity": 244,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "HNL"
+      }
+    },
+    "liczba_lotów": 5
+  },
+  {
+    "lotnisko": {
+"identity": 265,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FSD"
+      }
+    },
+    "liczba_lotów": 5
+  },
+  {
+    "lotnisko": {
+"identity": 222,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "liczba_lotów": 7
+  },
+  {
+    "lotnisko": {
+"identity": 270,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MOT"
+      }
+    },
+    "liczba_lotów": 8
+  },
+  {
+    "lotnisko": {
+"identity": 229,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSP"
+      }
+    },
+    "liczba_lotów": 9
+  },
+  {
+    "lotnisko": {
+"identity": 233,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAD"
+      }
+    },
+    "liczba_lotów": 12
+  },
+  {
+    "lotnisko": {
+"identity": 257,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BNA"
+      }
+    },
+    "liczba_lotów": 12
+  },
+  {
+    "lotnisko": {
+"identity": 268,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "AZO"
+      }
+    },
+    "liczba_lotów": 13
+  },
+  {
+    "lotnisko": {
+"identity": 232,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SFO"
+      }
+    },
+    "liczba_lotów": 14
+  },
+  {
+    "lotnisko": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "liczba_lotów": 18
+  },
+  {
+    "lotnisko": {
+"identity": 226,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAX"
+      }
+    },
+    "liczba_lotów": 22
+  },
+  {
+    "lotnisko": {
+"identity": 223,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAH"
+      }
+    },
+    "liczba_lotów": 23
+  },
+  {
+    "lotnisko": {
+"identity": 269,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DTW"
+      }
+    },
+    "liczba_lotów": 25
+  },
+  {
+    "lotnisko": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "liczba_lotów": 48
+  }
+]

@@ -1,0 +1,56 @@
+#1
+MATCH (movie:Movie) RETURN movie
+#2
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugoWeavingMovies
+#3
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) <-[:DIRECTED]-(director) RETURN director
+#4
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) <-[:ACTED_IN]-(actors) RETURN hugo,hugoWeavingMovies,actors
+#5
+MATCH (matrix:Movie {title: "The Matrix"})<-[:ACTED_IN]-(actors)-[:ACTED_IN]->(movies) RETURN actors,movies 
+#6
+MATCH (actor:Person)-[number:ACTED_IN]->(movie) RETURN actor.name, COUNT(number)
+#7
+MATCH (producer:Person)-[:DIRECTED]->(movie)<-[:WROTE]-(title) RETURN producer.name,movie.title
+#8
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"}) RETURN movie,hugo, keanu
+#9
+CREATE (m:Movie{set:"Movie", title:"Captain America: The First Avenger", tagline: "When patriots become heroes", released: 2011}),
+(d:Person{set: "Person", name: "Joe Johnston", born: 1950}),
+(s1:Person{set: "Person", name: "Christopher Markus", born: 1970}),
+(s2:Person{set: "Person", name: "Stephen McFeely", born: 1969}),
+(p:Person{set: "Person", name: "Kevin Feige", born: 1973}),
+(a1:Person{set: "Person", name: "Chris Evans", born: 1981}),
+(a2:Person{set: "Person", name: "Hayley Atwell", born: 1982}),
+(a3:Person{set: "Person", name: "Sebastian Stan", born: 1982}),
+(a4:Person{set: "Person", name: "Tommy Lee Jones", born: 1946}),
+(a5:Person{set: "Person", name: "Dominic Cooper", born: 1978}),
+(a6:Person{set: "Person", name: "Richard Armitage", born: 1971}),
+(a7:Person{set: "Person", name: "Stanley Tucci", born: 1960}),
+(a8:Person{set: "Person", name: "Samuel L. Jackson", born: 1948}),
+(a9:Person{set: "Person", name: "Toby Jones", born: 1966}),
+(a10:Person{set: "Person", name: "Neal McDonough", born: 1966}),
+(a11:Person{set: "Person", name: "Derek Luke", born: 1974}),
+(a12:Person{set: "Person", name: "Kenneth Choi", born: 1971}),
+(a13:Person{set: "Person", name: "JJ Feild", born: 1978}),
+(d)-[:DIRECTED]->(m),
+(s1)-[:WROTE]->(m),
+(s2)-[:WROTE]->(m),
+(p)-[:PRODUCED]->(m),
+(a0)-[:ACTED_IN{roles: ["Johann Schmidt", "Red Skull"]}]->(m),
+(a1)-[:ACTED_IN{roles: ["Captain America", "Steve Rogers"]}]->(m),
+(a2)-[:ACTED_IN{roles: ["Peggy Carter"]}]->(m),
+(a3)-[:ACTED_IN{roles: ["James Buchanan 'Bucky' Barnes"]}]->(m),
+(a4)-[:ACTED_IN{roles: ["Colonel Chester Phillips"]}]->(m),
+(a5)-[:ACTED_IN{roles: ["Howard Stark"]}]->(m),
+(a6)-[:ACTED_IN{roles: ["Heinz Kruger"]}]->(m),
+(a7)-[:ACTED_IN{roles: ["Dr. Abraham Erskine"]}]->(m),
+(a8)-[:ACTED_IN{roles: ["Nick Fury"]}]->(m),
+(a9)-[:ACTED_IN{roles: ["Dr. Arnim Zola"]}]->(m),
+(a10)-[:ACTED_IN{roles: ["Timothy 'Dum Dum' Dugan"]}]->(m),
+(a11)-[:ACTED_IN{roles: ["Gabe Jones"]}]->(m),
+(a12)-[:ACTED_IN{roles: ["Jim Morita"]}]->(m),
+(a13)-[:ACTED_IN{roles: ["James Montgomery Falsworth"]}]->(m)
+##zapytanie9
+match (movie:Movie{title: "Captain America: The First Avenger"})<-[o]-(actors)
+return movie, actors

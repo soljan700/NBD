@@ -1,0 +1,194 @@
+#rekord 1
+
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record1?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 66
+> 
+* upload completely sent off: 66 out of 66 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCJndBhBI58lgZNt7XucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCJndBhBI58lgZNt7XucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:48:33 GMT
+Last-Modified: Sun, 26 Jun 2022 13:48:33 GMT
+< ETag: "26jDyAHTjt1hdEXHL7Uh3D"
+ETag: "26jDyAHTjt1hdEXHL7Uh3D"
+< Date: Sun, 26 Jun 2022 13:48:33 GMT
+Date: Sun, 26 Jun 2022 13:48:33 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 66
+Content-Length: 66
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 6790,  "Name": "Gladiator", "isUsed": 1, "Type": "digital"}(base)
+
+#rekord 2
+
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record2?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 86
+> 
+* upload completely sent off: 86 out of 86 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv80tZAhBKZ81gZNt7XucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv80tZAhBKZ81gZNt7XucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:48:33 GMT
+Last-Modified: Sun, 26 Jun 2022 13:48:33 GMT
+< ETag: "1Q0PWMNNat41SJQmcEsLu9"
+ETag: "1Q0PWMNNat41SJQmcEsLu9"
+< Date: Sun, 26 Jun 2022 13:48:33 GMT
+Date: Sun, 26 Jun 2022 13:48:33 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 86
+Content-Length: 86
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 87653,  "Name": "Star Wars: The Force awakens", "isUsed": 0, "Type": "digital"}(base)
+
+#rekord 3
+
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record3?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 56
+> 
+* upload completely sent off: 56 out of 56 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv8H3JBhBKZ81gZNt3XucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv8H3JBhBKZ81gZNt3XucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+< ETag: "7hcKRADB1kFGoKl1ysXaPg"
+ETag: "7hcKRADB1kFGoKl1ysXaPg"
+< Date: Sun, 26 Jun 2022 13:48:33 GMT
+Date: Sun, 26 Jun 2022 13:48:33 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 56
+Content-Length: 56
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 53,  "Name": "Hobbit", "isUsed": 1, "Type": "CD"}(base)
+
+#rekord 4
+
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record4?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 60
+> 
+* upload completely sent off: 60 out of 60 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCSj9DhBKZ8lgZNt3XucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCSj9DhBKZ8lgZNt3XucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+< ETag: "2DFfxZsQhrR4I21QaBwIc1"
+ETag: "2DFfxZsQhrR4I21QaBwIc1"
+< Date: Sun, 26 Jun 2022 13:48:34 GMT
+Date: Sun, 26 Jun 2022 13:48:34 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 60
+Content-Length: 60
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 86543,  "Name": "Queen", "isUsed": 0, "Type": "disc"}(base)
+
+#rekord 5
+
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record5?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 68
+> 
+* upload completely sent off: 68 out of 68 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv8Ur0hQonMeawMm+7r3OHLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv8Ur0hQonMeawMm+7r3OHLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+Last-Modified: Sun, 26 Jun 2022 13:48:34 GMT
+< ETag: "5vwLVh6fWCuBAdNVlxyJ1L"
+ETag: "5vwLVh6fWCuBAdNVlxyJ1L"
+< Date: Sun, 26 Jun 2022 13:48:34 GMT
+Date: Sun, 26 Jun 2022 13:48:34 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 68
+Content-Length: 68
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 274,  "Name": "Transformers", "isUsed": 0, "Type": "digital"}(base)

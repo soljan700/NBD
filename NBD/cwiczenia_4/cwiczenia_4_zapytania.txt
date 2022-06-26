@@ -1,0 +1,61 @@
+#1
+MATCH res = shortestPath((t:town{name:"Darjeeling"})-[*]->(p:peak{name:"Sandakphu"}))
+RETURN res
+#2
+MATCH res = shortestPath((t:town{name:"Darjeeling"})-[*]->(p:peak{name:"Sandakphu"}))
+WHERE all(s IN relationships(res) WHERE s.winter = 'true')
+RETURN res
+#3
+MATCH res=(a {name: "Darjeeling"})-[*]->(b {name: "Sandakphu"})   
+RETURN reduce(distance=0, r IN relationships(res) | distance + r.distance) AS distance, reduce(towns="", n IN nodes(res) | towns + " " + n.name) AS towns
+order by distance asc
+#4
+MATCH p = (t:town {name: "Darjeeling"})-[r:twowheeler*]->(res)
+WHERE ALL (r IN relationships(p) WHERE r.summer = "true")
+RETURN res
+
+**brak outputu**
+
+
+#5
+MATCH res = (a:Airport)-[o:ORIGIN]-()
+return a as lotnisko, count(*) as liczba_lotów
+order by liczba_lotów
+#6
+MATCH res = (a:Airport {name:"LAX"})-[d:ORIGIN|DESTINATION*..5]-(dest:Airport)
+WITH res,REDUCE(price = 0, node IN [n IN NODES(res) WHERE 'Flight' IN LABELS(n)] | price + [(node)<-[:ASSIGN]-(t) | t.price][0]) AS Cena,dest
+WHERE Cena < 3000 AND dest.name <> "LAX" AND TYPE(HEAD(RELATIONSHIPS(res))) = 'ORIGIN'
+RETURN dest, Cena
+#7
+MATCH res = (a:Airport {name:"LAX"})-[r:ORIGIN|DESTINATION*..5]-(dest:Airport {name: "DAY"})
+WITH res,REDUCE(price = 0, node IN [n IN NODES(res) WHERE 'Flight' IN LABELS(n)] | price + [(node)<-[:ASSIGN]-(t) | t.price][0]) AS cena,dest
+WHERE  TYPE(HEAD(RELATIONSHIPS(res))) = 'ORIGIN'
+RETURN dest, cena
+ORDER BY cena
+
+**brak outputu**
+
+#8
+MATCH res = (a:Airport {name:"LAX"})-[r:ORIGIN|DESTINATION*..5]-(dest:Airport {name: "DAY"})
+WITH res,REDUCE(price = 0, node IN [n IN NODES(res) WHERE 'Flight' IN LABELS(n)] | price + [(node)<-[:ASSIGN]-(t) | t.price][0]) AS cena,dest
+WHERE  TYPE(HEAD(RELATIONSHIPS(res))) = 'ORIGIN'
+RETURN dest, cena
+ORDER BY cena ASC
+LIMIT 1
+
+**brak outputu**
+
+#9
+MATCH (a:Airport)-[:ORIGIN]-(f:Flight)-[:DESTINATION]-(dest:Airport)
+WITH f, [a.name, dest.name, f.airline] AS r
+RETURN f.airline AS linia, COUNT(DISTINCT r) as liczba_miast
+
+#10
+MATCH res = (a:Airport)<-[r:ORIGIN|DESTINATION*4..4]->(dest:Airport)
+WHERE a.name <> dest.name
+WITH res, REDUCE(price = 0, node IN [n IN NODES(res) WHERE 'Flight' IN LABELS(n)] | price + [(node)<-[:ASSIGN]-(t) | t.price][0]) AS cena, dest
+WHERE TYPE(HEAD(RELATIONSHIPS(res))) = 'ORIGIN'
+RETURN res, cena
+ORDER BY cena ASC
+LIMIT 1
+

@@ -1,0 +1,24 @@
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> GET /buckets/s26342/keys/record4?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Object Not Found
+HTTP/1.1 404 Object Not Found
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 26 Jun 2022 14:05:51 GMT
+Date: Sun, 26 Jun 2022 14:05:51 GMT
+< Content-Type: text/plain
+Content-Type: text/plain
+< Content-Length: 10
+Content-Length: 10
+
+< 
+not found
+* Connection #0 to host localhost left intact
+(base)

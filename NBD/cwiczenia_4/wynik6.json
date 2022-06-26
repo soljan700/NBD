@@ -1,0 +1,830 @@
+﻿[
+  {
+    "dest": {
+"identity": 222,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "Cena": 2540
+  },
+  {
+    "dest": {
+"identity": 234,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "Cena": 296.25
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2152.25
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2155.25
+  },
+  {
+    "dest": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "Cena": 1005.75
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 846.0
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 846.0
+  },
+  {
+    "dest": {
+"identity": 262,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "Cena": 166.5
+  },
+  {
+    "dest": {
+"identity": 263,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUS"
+      }
+    },
+    "Cena": 354.0
+  },
+  {
+    "dest": {
+"identity": 263,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUS"
+      }
+    },
+    "Cena": 566.4
+  },
+  {
+    "dest": {
+"identity": 262,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "Cena": 267.59999999999997
+  },
+  {
+    "dest": {
+"identity": 262,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "Cena": 165.75
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 528.75
+  },
+  {
+    "dest": {
+"identity": 262,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "Cena": 265.2
+  },
+  {
+    "dest": {
+"identity": 237,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BOS"
+      }
+    },
+    "Cena": 2700
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 707
+  },
+  {
+    "dest": {
+"identity": 246,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAS"
+      }
+    },
+    "Cena": 249
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2151.0
+  },
+  {
+    "dest": {
+"identity": 233,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAD"
+      }
+    },
+    "Cena": 1853.25
+  },
+  {
+    "dest": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "Cena": 1033.8
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2152.2
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 529.5
+  },
+  {
+    "dest": {
+"identity": 234,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "Cena": 471.59999999999997
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2327.6
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2330.6
+  },
+  {
+    "dest": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "Cena": 1181.1
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 529.5
+  },
+  {
+    "dest": {
+"identity": 261,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "Cena": 704
+  },
+  {
+    "dest": {
+"identity": 222,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "Cena": 2543
+  },
+  {
+    "dest": {
+"identity": 234,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "Cena": 294.75
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2150.75
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2153.75
+  },
+  {
+    "dest": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "Cena": 1004.25
+  },
+  {
+    "dest": {
+"identity": 234,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "Cena": 472.79999999999995
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2328.8
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2331.8
+  },
+  {
+    "dest": {
+"identity": 238,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "Cena": 1182.3
+  },
+  {
+    "dest": {
+"identity": 223,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAH"
+      }
+    },
+    "Cena": 1712.3999999999999
+  },
+  {
+    "dest": {
+"identity": 222,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "Cena": 2801.3999999999996
+  },
+  {
+    "dest": {
+"identity": 259,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PBI"
+      }
+    },
+    "Cena": 2910.0
+  },
+  {
+    "dest": {
+"identity": 233,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAD"
+      }
+    },
+    "Cena": 2960.3999999999996
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1970.3999999999999
+  },
+  {
+    "dest": {
+"identity": 278,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "AUS"
+      }
+    },
+    "Cena": 1891.1999999999998
+  },
+  {
+    "dest": {
+"identity": 286,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUL"
+      }
+    },
+    "Cena": 2251.2
+  },
+  {
+    "dest": {
+"identity": 280,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MFE"
+      }
+    },
+    "Cena": 1962.1499999999999
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1969.1999999999998
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2674.3999999999996
+  },
+  {
+    "dest": {
+"identity": 239,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DFW"
+      }
+    },
+    "Cena": 1949.3999999999999
+  },
+  {
+    "dest": {
+"identity": 256,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "Cena": 2302.3999999999996
+  },
+  {
+    "dest": {
+"identity": 256,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "Cena": 2303.3999999999996
+  },
+  {
+    "dest": {
+"identity": 252,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LGA"
+      }
+    },
+    "Cena": 2815.6499999999996
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2878.7999999999997
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1925.3999999999999
+  },
+  {
+    "dest": {
+"identity": 225,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCO"
+      }
+    },
+    "Cena": 2779.2
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1925.3999999999999
+  },
+  {
+    "dest": {
+"identity": 227,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FLL"
+      }
+    },
+    "Cena": 2917.2
+  },
+  {
+    "dest": {
+"identity": 232,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SFO"
+      }
+    },
+    "Cena": 2996.3999999999996
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1872.1499999999999
+  },
+  {
+    "dest": {
+"identity": 237,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BOS"
+      }
+    },
+    "Cena": 2968.6499999999996
+  },
+  {
+    "dest": {
+"identity": 224,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SAT"
+      }
+    },
+    "Cena": 1914.3999999999999
+  },
+  {
+    "dest": {
+"identity": 276,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORF"
+      }
+    },
+    "Cena": 2958.3999999999996
+  },
+  {
+    "dest": {
+"identity": 225,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCO"
+      }
+    },
+    "Cena": 2602.3999999999996
+  },
+  {
+    "dest": {
+"identity": 228,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "Cena": 2441.3999999999996
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1872.1499999999999
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1925.3999999999999
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1872.1499999999999
+  },
+  {
+    "dest": {
+"identity": 256,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "Cena": 2303.3999999999996
+  },
+  {
+    "dest": {
+"identity": 256,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BHM"
+      }
+    },
+    "Cena": 2155.6499999999996
+  },
+  {
+    "dest": {
+"identity": 285,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "Cena": 1967.9999999999998
+  }
+]

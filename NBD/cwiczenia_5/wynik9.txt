@@ -1,0 +1,11 @@
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv84rdAhBIZ81gZvj7TucOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26342>; rel="up"
+Last-Modified: Sun, 26 Jun 2022 14:19:33 GMT
+ETag: "7miUKNQW1CwOS62aiDzMMg"
+Date: Sun, 26 Jun 2022 14:21:16 GMT
+Content-Type: application/json
+Content-Length: 21
+
+{"Name": "Star Wars"}(base)

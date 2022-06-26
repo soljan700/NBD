@@ -1,0 +1,13 @@
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv80tZAhBKZ81gZNt7XucOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26342>; rel="up"
+Last-Modified: Sun, 26 Jun 2022 13:48:33 GMT
+ETag: "1Q0PWMNNat41SJQmcEsLu9"
+Date: Sun, 26 Jun 2022 13:48:34 GMT
+Content-Type: application/json
+Content-Length: 86
+
+{"id": 87653,  "Name": "Star Wars: The Force awakens", "isUsed": 0, "Type": "digital"}(base)

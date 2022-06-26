@@ -1,0 +1,25 @@
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> DELETE /buckets/s26342/keys/89nwgRoG3kvvaPbzJZspICDoxfy HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 204 No Content
+HTTP/1.1 204 No Content
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Date: Sun, 26 Jun 2022 14:24:17 GMT
+Date: Sun, 26 Jun 2022 14:24:17 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 0
+Content-Length: 0
+
+< 
+* Connection #0 to host localhost left intact
+

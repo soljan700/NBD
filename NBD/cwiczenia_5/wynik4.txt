@@ -1,0 +1,36 @@
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> PUT /buckets/s26342/keys/record4?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 47
+> 
+* upload completely sent off: 47 out of 47 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCSj9DhBKZ81gZ5j3UucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgsCSj9DhBKZ81gZ5j3UucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 13:56:46 GMT
+Last-Modified: Sun, 26 Jun 2022 13:56:46 GMT
+< ETag: "5bu0Et6YbAGWV3WCt5YQp2"
+ETag: "5bu0Et6YbAGWV3WCt5YQp2"
+< Date: Sun, 26 Jun 2022 13:56:46 GMT
+Date: Sun, 26 Jun 2022 13:56:46 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 47
+Content-Length: 47
+
+< 
+* Connection #0 to host localhost left intact
+{"id": 86543,  "Name": "Queen", "Type": "disc"}(base)

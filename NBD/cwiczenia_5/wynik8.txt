@@ -1,0 +1,38 @@
+*   Trying 127.0.0.1:8098...
+* TCP_NODELAY set
+* Connected to localhost (127.0.0.1) port 8098 (#0)
+> POST /buckets/s26342/keys?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.68.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 21
+> 
+* upload completely sent off: 21 out of 21 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+HTTP/1.1 201 Created
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv84rdAhBIZ81gZvj7TucOXBQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdgv84rdAhBIZ81gZvj7TucOXBQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Location: /buckets/s26342/keys/89nwgRoG3kvvaPbzJZspICDoxfy
+Location: /buckets/s26342/keys/89nwgRoG3kvvaPbzJZspICDoxfy
+< Link: </buckets/s26342>; rel="up"
+Link: </buckets/s26342>; rel="up"
+< Last-Modified: Sun, 26 Jun 2022 14:19:33 GMT
+Last-Modified: Sun, 26 Jun 2022 14:19:33 GMT
+< ETag: "7miUKNQW1CwOS62aiDzMMg"
+ETag: "7miUKNQW1CwOS62aiDzMMg"
+< Date: Sun, 26 Jun 2022 14:19:33 GMT
+Date: Sun, 26 Jun 2022 14:19:33 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 21
+Content-Length: 21
+
+< 
+* Connection #0 to host localhost left intact
+{"Name": "Star Wars"}(base)
