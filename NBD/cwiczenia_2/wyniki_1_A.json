@@ -1,0 +1,16 @@
+MongoDB shell version v3.6.8
+connecting to: mongodb://127.0.0.1:27017/nbd
+Implicit session: session { "id" : UUID("e2d9bf1f-62d8-4dc6-aa3d-739e6931cc77") }
+MongoDB server version: 3.6.8
+[
+	{
+		"_id" : "Female",
+		"avgWeight" : 69.62432269717038,
+		"avgHight" : 166.62131246237206
+	},
+	{
+		"_id" : "Male",
+		"avgWeight" : 69.50687661949372,
+		"avgHight" : 166.59138927646003
+	}
+]
