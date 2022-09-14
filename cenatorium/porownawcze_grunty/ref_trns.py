@@ -19,14 +19,26 @@ input_parameters = {'geo_lon': 21.00193,
        #'data_referencyjna': '2020-01-01',
        'final_price': 300}
 
+input_parameters = {'geo_lon': 21.168886,
+       'geo_lat': 52.405435,
+       'tr_ref_count': 20,
+       'data_wyceny': '2018-04-01',
+       'teryt': '1434011',
+       'suma_powierzchni_dzialek': 573.0,
+       #'data_referencyjna': '2020-01-01',
+       'final_price': 300}
+
+#52.405435	21.168886	573.0
+
+
 search = {'lon': input_parameters['geo_lon'],
                 'lat': input_parameters['geo_lat'],
                 'powiat_id': input_parameters['teryt'][:4],
                 'valuation_date': input_parameters['data_wyceny'],
                 'final_price': input_parameters['final_price'],
                 #'min_reference_date': input_parameters['data_referencyjna'],
-                'max_price': input_parameters['final_price'] * 1.2,
-                'min_price': input_parameters['final_price'] * 0.8,
+                'max_price': input_parameters['final_price'] * 1.4,
+                'min_price': input_parameters['final_price'] * 0.6,
                 'area': input_parameters['suma_powierzchni_dzialek'],
                 'area_min': input_parameters['suma_powierzchni_dzialek'] * 0.75,
                 'area_max': input_parameters['suma_powierzchni_dzialek'] * 1.5}
